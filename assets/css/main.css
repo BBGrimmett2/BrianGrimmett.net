@@ -367,6 +367,10 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.iframe {
+		overflow: hidden;
+	}
+
 /* Row */
 
 	.row {
@@ -4001,13 +4005,15 @@ input, select, textarea {
 
 /* Embeded */
 
-.embeded {
-	display:table;
-	margin-left:auto;
-	margin-right:auto;
-	width: 100%;
-  	height: 55em;
-}
+	.embeded {
+		display:table;
+		margin-left:auto;
+		margin-right:auto;
+		width: 100%;
+		height: 55em;
+		pointer-events: none;
+		background-color: #FFFFFF;
+	}
 
 /* Footer */
 

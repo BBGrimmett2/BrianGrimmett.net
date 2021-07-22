@@ -74,7 +74,7 @@
 						<div class="content">
 							<h2 class="major">About Me</h2>
 								<p>
-									<span class="image left"><img src="images/pic01.jpg"/></span>
+									<span class="image left"><img src="images/pic-of-me.jpg"/></span>
 									As a student at Roanoke College, I have studied physics, mathematics, and computer 
 									science where I have taken an interest in computer and software engineering specifically 
 									in the field of robotics. I am a member of the men’s swim team, and I work in the physics 
@@ -108,11 +108,13 @@
 							<section class="features">
 							
 								<article>
-									<a href="hp-photos.html" class="image"><img src="images/hp-photos-article.jpg"/></a>
+									<a href="pages/hp-photos.html" class="image"><img src="images/hp-photos-article.jpg"/></a>
 									<h3 class="major">Photography Website</h3>
 								
 									<p>
-										A photography website meant to be a showcase of work and center for bussiness.
+									A webpage to have a centralized place for a starting photography business. 
+									The webpage contains a summary of the owner, pricing, photoshoot gallery, 
+									and how to contact.
 									</p>
 								
 									<a href="pages/hp-photos.html" class="special">Learn more</a>
