@@ -134,7 +134,7 @@
 -->
 
 								<article>
-									<a class="image"><img src="images/string.jpg"/></a> <!-- href="cpp-string.html" -->
+									<a href="pages/my-string.html" class="image"><img src="images/string.jpg"/></a> <!-- href="cpp-string.html" -->
 								
 									<h3 class="major">C++ String Class | Coming Soon...</h3>
 								
@@ -143,7 +143,7 @@
 										useful member functions.
 									</p>
 								
-									<a class="special">Learn more</a> <!-- href="cpp-string.html" -->
+									<a href="pages/my-string.html" class="special">Learn more</a> <!-- href="cpp-string.html" -->
 								</article>
 							</section>
 
