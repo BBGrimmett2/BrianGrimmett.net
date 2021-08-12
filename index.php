@@ -119,24 +119,11 @@
 								
 									<a href="pages/hp-photos.html" class="special">Learn more</a>
 								</article>
-<!--
-								<article>
-									<a class="image"><img src="images/pic05.jpg"/></a> <!-- href="powerpaddle.html" ->
-								
-									<h3 class="major">PowerPaddle | Coming Soon...</h3>
-								
-									<p>
-										A device to measure power output in swimming and display the data for training uses.
-									</p>
-								
-									<a class="special">Learn more</a> <!-- href="powerpaddle.html" ->
-								</article>
--->
 
 								<article>
 									<a href="pages/my-string.html" class="image"><img src="images/string.jpg"/></a> <!-- href="cpp-string.html" -->
 								
-									<h3 class="major">C++ String Class | Coming Soon...</h3>
+									<h3 class="major">C++ String Class</h3>
 								
 									<p>
 										A modification on the C++ string class to include better functionality and 
@@ -145,11 +132,25 @@
 								
 									<a href="pages/my-string.html" class="special">Learn more</a> <!-- href="cpp-string.html" -->
 								</article>
-							</section>
 
+								<article>
+									<a class="image"><img src="images/pic05.jpg"/></a> <!-- href="powerpaddle.html" -->
+								
+									<h3 class="major">PowerPaddle | Coming Soon...</h3>
+								
+									<p>
+										A device to measure power output in swimming and display the data for training uses.
+									</p>
+								
+									<a class="special">Learn more</a> <!-- href="powerpaddle.html" -->
+								</article>
+
+							</section>
+							<!--
 							<ul class="actions">
 								<li><a href="#portfolio" class="button">Browse All</a></li>
 							</ul>
+							-->
 						</div>
 					</section>
 				</section>
