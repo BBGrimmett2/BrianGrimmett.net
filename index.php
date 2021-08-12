@@ -126,8 +126,8 @@
 									<h3 class="major">C++ String Class</h3>
 								
 									<p>
-										A modification on the C++ string class to include better functionality and 
-										useful member functions.
+									This project is a clone of the C++ standard string class to show knowledge of data management, 
+									memory allocation, and recreation of a class for modification in specific projects.
 									</p>
 								
 									<a href="pages/my-string.html" class="special">Learn more</a> <!-- href="cpp-string.html" -->
