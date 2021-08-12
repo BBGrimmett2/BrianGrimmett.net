@@ -133,8 +133,9 @@
 									<a href="pages/my-string.html" class="special">Learn more</a> <!-- href="cpp-string.html" -->
 								</article>
 
+								<!--
 								<article>
-									<a class="image"><img src="images/pic05.jpg"/></a> <!-- href="powerpaddle.html" -->
+									<a class="image"><img src="images/pic05.jpg"/></a> <!-- href="powerpaddle.html" ->
 								
 									<h3 class="major">PowerPaddle | Coming Soon...</h3>
 								
@@ -142,8 +143,8 @@
 										A device to measure power output in swimming and display the data for training uses.
 									</p>
 								
-									<a class="special">Learn more</a> <!-- href="powerpaddle.html" -->
-								</article>
+									<a class="special">Learn more</a> <!-- href="powerpaddle.html" ->
+								</article>-->
 
 							</section>
 							<!--
