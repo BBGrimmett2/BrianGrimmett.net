@@ -61,12 +61,13 @@
 							<h2>C++ String Class</h2>
 	
 							<p>
-								A photography website that uses HTML, PHP, and CSS to have a 
-								center for the client’s business. The foundation of the 
-								website was a template from W3 Schools, which was adopted for 
-								the client’s needs. The website features an informational homepage 
-								with pricing, a photo gallery, and a contact form. Where the 
-								portfolio can take the user to a photoshoot detail page.
+								Taking the 
+
+								<a href="https://www.cplusplus.com/reference/string/string/">C++ String class</a>
+
+								, I created a clone that would enable me to have an easy way to store an array of 
+								characters. The purpose of this project was to test my knowledge of the C++ language 
+								in addition to the workings of class and user-designed data types.
 							</p>
 						</div>
 					</section>
@@ -77,9 +78,7 @@
 							<div class="content">
 								<h2 class="major"><a href="https://github.com/BBGrimmett2/MyStringClass">C++ String Class</a></h2>
 								
-								<p>
-									Here is where the content will go.
-								</p>
+								
 							</div>
 						</div>
 					</section>
@@ -93,46 +92,50 @@
 								<h3 class="major">Project Goals</h3>
 	
 								<p>
-									The client wanted a webpage that serves as a hub for a photography 
-									business. Through discussions with the client over a few meetings and 
-									looking at other photography websites we created a plan for her website. 
-									The client has also wanted me to be the one keeping the site updates where 
-									they would send content and I would add it to the website.
+									The goals for this project were to create a C++ string class that can be modified for 
+									later projects and to have a deeper understanding of how the standard string library 
+									was created while exploring user-defined data types. The requirements I set for this 
+									project were for the class to have efficient memory allocation, input and output operators, 
+									and other useful member functions/operators.
 								</p>
 	
 								<h3>Technolgies Used:</h3>
 									<ul class = "interest" style="list-style-type:none;">
 										<li>C++</li>
+
+										<li>Makefile</li>
 									</ul>
 								
 									<p>
-										This project challenged me because I have worked with HTML, 
-										PHP, and CSS before however, online documentation by 
-										<a target="_blank" href="https://www.w3schools.com/cssref/default.asp">W3 schools</a> 
-
-										made the project much easier and broke down the elements into easier-to-digest concepts. Therefore, I used a 
-
-										<a target="_blank" href="https://www.w3schools.com/w3css/w3css_templates.asp">template from W3 Schools</a>
-
-										, and I was able to adapt the template to what the client was asking for. The first thing I tackled was 
-										the home page which I took the template and modified it to include a pricing section, portfolio, and working 
-										contact form. The contact form was a big challenge for me because I have not worked with PHP before; however, 
-										thanks to a tutorial on YouTube by 
-										
-										<a target="_blank" href="https://youtu.be/h5ghlfvU3S8">FollowAndrew</a>. 
-
-										I was able to get the contact form working.I formatted the emails sent thru the contact 
-										form to a contact email address set up through the website hosting service to be easily 
-										readable and informative. 
+										The first step of creating the class was to set the private variables which 
+										include a variable to represent the array size, the total amount of memory allocated, 
+										and an array of characters. Next was the default constructor where the array size is 
+										set to zero, the memory allocation set to one, and the array of characters only including 
+										the end of string character. To add characters to the array, the array size must be increased. 
+										This presented a problem where when one memory allocation spot is added to the array then the 
+										array must be resized using the new operator and the array must be copied. Doing this every time 
+										a character is added is not efficient and can be very slow when the array grows large enough. 
+										For this reason, i used array doubling for the memory allocation to have a more efficient and size-proof 
+										system. Afterwards, I began adding member functions such as copyString, printLocation, subString, 
+										addCharacter, removeCharacter, and many others that I thought would be useful to have. With the member 
+										functions, I also added operators such as less than, greater than, equal to, equals, greater than or equal 
+										to, less than or equal to, input, and output. Finally, a destructor was added to clear the heap space and 
+										prevent memory leaks in programs. 
 									</p>
 
 									<p>
-										On the portfolio page, I was able to take the idea from the homepage 
-										to have continuity throughout the website. The portfolio page is a picture 
-										gallery in which when the user clicks on the desired picture it takes them 
-										to a detail page about the shoot that contains some background information 
-										on the photoshoot. The detail page also includes some featured photos from 
-										the photoshoot for clients to see the photographer's work.
+										To use the string class in C++ files, I worked with makefiles where 
+										I used a simple C++ file to test the functionality of the member functions. 
+										While programming the class, I was using hand tracing to debug the program and 
+										reference my planning on paper to be sure everything is working to the the way in which I designed it.
+									</p>
+
+									<p>
+										Overall, this project gave me a lot of experience working with custom data types and 
+										debugging a project of this magnitude. Even though there are many of other programs that 
+										are much larger than the one I wrote, the experience and habits of commenting and debugging 
+										allowed me to practice “good coding habits” that will allow for other people to be able to 
+										read and use my code.
 									</p>
 							</div>
 						</div>
