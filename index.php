@@ -108,19 +108,6 @@
 							<section class="features">
 							
 								<article>
-									<a href="pages/hp-photos.html" class="image"><img src="images/hp-photos-article.jpg"/></a>
-									<h3 class="major">Photography Website</h3>
-								
-									<p>
-									A webpage to have a centralized place for a starting photography business. 
-									The webpage contains a summary of the owner, pricing, photoshoot gallery, 
-									and how to contact.
-									</p>
-								
-									<a href="pages/hp-photos.html" class="special">Learn more</a>
-								</article>
-
-								<article>
 									<a href="pages/my-string.html" class="image"><img src="images/string.jpg"/></a> <!-- href="cpp-string.html" -->
 								
 									<h3 class="major">C++ String Class</h3>
@@ -133,18 +120,32 @@
 									<a href="pages/my-string.html" class="special">Learn more</a> <!-- href="cpp-string.html" -->
 								</article>
 
-								<!--
 								<article>
-									<a class="image"><img src="images/pic05.jpg"/></a> <!-- href="powerpaddle.html" ->
-								
-									<h3 class="major">PowerPaddle | Coming Soon...</h3>
+									<a href="pages/hp-photos.html" class="image"><img src="images/hp-photos-article.jpg"/></a>
+									<h3 class="major">Photography Website</h3>
 								
 									<p>
-										A device to measure power output in swimming and display the data for training uses.
+									A webpage to have a centralized place for a starting photography business. 
+									The webpage contains a summary of the owner, pricing, photoshoot gallery, 
+									and how to contact.
 									</p>
 								
-									<a class="special">Learn more</a> <!-- href="powerpaddle.html" ->
-								</article>-->
+									<a href="pages/hp-photos.html" class="special">Learn more</a>
+								</article>
+
+								
+								<article>
+									<a class="image" href="powerpaddle.html"><img src="images/pic05.jpg"/></a>
+								
+									<h3 class="major">PowerPaddle</h3>
+								
+									<p>
+									The PowerPaddle is a device that measures power output in competitive swimming 
+									and displays the data for easy interpretation by the user. 
+									</p>
+								
+									<a class="special" href="powerpaddle.html">Learn more</a>
+								</article>
 
 							</section>
 							<!--

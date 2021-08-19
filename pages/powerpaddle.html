@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Brian Grimmett | PowerPaddle</title>
+		
+		<meta charset="utf-8" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		
+		<link rel="stylesheet" href="../assets/css/gallery.css" />
+		
+		<link rel="icon" href="../images/logo.jpg">
+		
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="../index.php">Brian Grimmett</a></h1>
+	
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+	
+							<ul class="links">
+								<li><a href="../index.php">Home</a></li>
+	
+								<li><a href="../index.php#about">About Me</a></li>
+	
+								<li><a href="../index.php#portfolio">Portfolio</a></li>
+	
+								<li><a href="../index.php#footer">Contact</a></li>
+	
+								<li><a href="../pages/resume.html">Resume</a></li>
+							</ul>
+	
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Title Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo">
+								<a href = "../index.php"><img class = "icon" src ="../images/logo.jpg"></a>		
+							</div>
+	
+							<h2>PowerPaddle</h2>
+	
+							<p>
+								Using force sensors, Arduino, and python the PowerPaddle takes the force 
+								exerted by a swimmer and allows them to use the data to fight weak points 
+								in their stroke as well as finding ways to be more efficient. The PowerPaddle 
+								also has applications in water safety to show people how to be more efficient 
+								in swimming and giving them more information about how to use their bodies to 
+								escape dangerous situations. 
+							</p>
+						</div>
+					</section>
+
+				<!-- How It's Made -->
+					<section id="about" class="wrapper alt style2">
+						<div class="inner">
+							<div class="content">
+								<h2 class="major">How it was done</h2>
+
+								<h3 class="major">Project Goals</h3>
+	
+								<p>
+									The PowerPaddle’s goal is to be a device to help competitive swimmers to be 
+									more efficient in their stroke. Using the article 
+									
+									<a target="_blank" href="https://www.teamusa.org/USA-Triathlon/News/Blogs/Multisport-Lab/2016/April/26/Measuring-Propulsive-Force-in-Swimming">Measuring Propulsive Force in Swimming</a>
+									
+									, written by Gary Hall Sr, the maximum propulsive force of the swimmer 
+									happens as the hand is one foot in front of the shoulder joint. The PowerPaddle 
+									is designed to go onto the hand and collect data while the swimmer is in motion, 
+									then the software will delete any data that is below a certain threshold therefore 
+									it is only collecting data while the stroke is underwater. The ultimate goal will 
+									be for the PowerPaddle to be waterproof and allow the swimmer to have a minimal 
+									difference in their stroke while wearing it. 
+								</p>
+	
+								<h3>Technolgies Used:</h3>
+									<ul class = "interest" style="list-style-type:none;">
+										<li>Python</li>
+	
+										<li>Kivy</li>
+	
+										<li>Arduino</li>
+									</ul>
+								
+									<p>
+										Starting this project I felt extremely overwhelmed; however, my research 
+										advisor helped me break down the project into smaller more achievable 
+										“checkpoints”. The goals were as follows:
+
+										<ol class="interest">
+											<li>Research and engineering design</li>
+
+											<li>Finalizing a prototype</li>
+											
+											<li>Build the initial design on a breadboard</li>
+
+											<li>Application development</li>
+
+											<li>Complete a dry mockup</li>
+
+											<li>Waterproofing</li>
+
+											<li>Pool trials</li>
+
+											<li>Data collection</li>
+										</ol>
+									</p>
+
+									<p>
+										For the first goal, I sketched out where the force sensors will go as a 
+										general idea, as well as what materials will be used. I decided to use a 
+										force-sensitive resistor (FSR) from 
+										
+										<a target="_blank" href="https://www.adafruit.com/product/166">Adafruit.com</a> 
+										
+										and an Arduino provided to me by the school. I chose the components by looking at a 
+										
+										<a target="_blank" href="https://csdt.org/culture/diysportsscience/diyjumpplate.html">jump plate</a>
+										created by a basketball coach and modifying the idea for my application. Next, 
+										I chose to use Python as it is easy to use and has intuitive GUIs such as Kivy. 
+										
+										<a target="_blank" href="https://kivy.org/#home">Kivy</a>
+										
+										has extensive documentation and a helpful online community which was my requirement when choosing a GUI. 
+									</p>
+
+									<p>
+										In the first mockup, I was able to see the data being read by the FSR, which was very exciting for me to 
+										see the mockup work. However, it seemed to have a “garbage” output which I was able to trace back to 
+										floating-point number errors and trying to convert strings to numbers in data collection. After I was 
+										able to collect data, I have created a formula to get accurate and precise measurements. This was 
+										done by comparing data to lab force sensors with multiple different weights and items and finding 
+										the factor that the force sensor was off. 
+									</p>
+
+									<p>
+										As of now, I have been working on creating a computer model and downsizing the device. The goal 
+										for the downsizing is to make the device more useable underwater. I look forward to continuing 
+										my research at Roanoke College and working towards a more useable product!
+									</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">								
+							<ul class="copyright">							
+								<li><a class = "icon solid fa-envelope" href = "mailto:me@briangrimmett.net">  Email</a></li>
+								
+								<li><a target = "_blank" class="icon brands fa-github" href="https://github.com/BBGrimmett2">  Github</a></li>
+								
+								<li><a target = "_blank" class="icon brands fa-linkedin" href="https://www.linkedin.com/in/brian-grimmett-7b42b11ab/">  LinkedIn</a></li>
+								
+								<li><a target = "_blank" class="icon brands fa-instagram" href="https://www.instagram.com/brian.grimmett/">  Instagram</a></li>
+								
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								
+								<li><a target="_blank" href="https://github.com/BBGrimmett2/BBG-Portfolio">Adapted by Brian Grimmett 2021</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+	</body>
+</html>
